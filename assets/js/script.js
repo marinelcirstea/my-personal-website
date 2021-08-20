@@ -99,6 +99,17 @@ const projectList = [
     section: "Test section",
     projects: [
       {
+        title: "JustGetInTouch.com",
+        summary:
+          "JustGetInTouch sends your site's form submission directly to your inbox without the need of any backend code or SMTP setup.",
+        github: "",
+        codepen:"",
+        webLink: "https://www.justgetintouch.com/",
+        image: "assets/images/project_images/justgetintouch.PNG",
+        imageAltText: "abcd",
+        tech: "",
+      },
+      {
         title: "Responsive Pricing Cards",
         summary:
           "Full responsivity for Mobile, Tablet and PC. This is part of my free snippets project created on GitHub. Feel free to use it for your website or future project. You do not have to create a backlink or even mention you have got it from me.",
