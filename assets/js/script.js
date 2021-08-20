@@ -145,7 +145,7 @@ for (section of projectList) {
                     ${project.summary}
                 </p>
                 <a href="#contact" class="button button-primary">Contact</a>
-                ${project.webLink?`<a href="${project.github}" class="button">See Live</a>`:``}
+                ${project.webLink?`<a href="${project.webLink}" class="button">See Live</a>`:``}
                 ${project.github?`<a href="${project.github}" class="button">GitHub</a>`:``}
                 ${project.codepen?`<a href="${project.codepen}" class="button">CodePen</a>`:``}
             </div>
