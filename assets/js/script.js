@@ -99,10 +99,32 @@ const projectList = [
     section: "Test section",
     projects: [
       {
+        title: "Open source ecommerce platform",
+        summary:
+          `This project is still under active development. The plan is to reach a fully functional ecommerce platform built on top of Node and Next.js, that is open source and can be used by anyone.`,
+        github: "https://github.com/marinelcirstea/ecommerce",
+        codepen:"",
+        webLink: "",
+        image: "assets/images/project_images/ecommerce-platform.png",
+        imageAltText: "abcd",
+        tech: "",
+      },
+      {
+        title: "Live front-end environment",
+        summary:
+          `Fully fledged development environment allowing you to write, test, and discover front-end code. Fully integrated Monaco Editor(VS Code) with live preview, syntax highlighting, code formatting, intellisense and hot reloading available out of the box.`,
+        github: "https://github.com/marinelcirstea/live-front-end-environment",
+        codepen:"",
+        webLink: "https://live-front-end-environment.vercel.app/",
+        image: "assets/images/project_images/live-front-end-env.png",
+        imageAltText: "abcd",
+        tech: "",
+      },
+      {
         title: "JustGetInTouch.com",
         summary:
-          "JustGetInTouch sends your site's form submission directly to your inbox without the need of any backend code or SMTP setup.",
-        github: "",
+          `JustGetInTouch sends your site's form submission directly to your inbox without the need of any backend code or SMTP setup. Fun fact: I'm actually using it on this exact website!`,
+        github: "https://github.com/marinelcirstea/express-mailer-with-sendgrid",
         codepen:"",
         webLink: "https://www.justgetintouch.com/",
         image: "assets/images/project_images/justgetintouch.PNG",
@@ -131,6 +153,17 @@ const projectList = [
         imageAltText: "abcd",
         tech: "",
       },
+      {
+        title: "EspressoUnderground.co.uk",
+        summary:
+          `Rewritten the design, implemented analytics and improved loading speed for EspressoUnderground.co.uk. They used quite an old platform - it was a real pain to make it do what we wanted it to do. All of these resulted in their traffic and revenue increasing 4 times in only a few months.`,
+        github: "",
+        codepen:"",
+        webLink: "https://www.espressounderground.co.uk/Default.asp",
+        image: "assets/images/project_images/espressounderground.png",
+        imageAltText: "abcd",
+        tech: "",
+      },
     ],
   },
 ];
@@ -144,10 +177,12 @@ for (section of projectList) {
                 <p class="project__summary">
                     ${project.summary}
                 </p>
+                <div class="project__cta">
                 <a href="#contact" class="button button-primary">Contact</a>
-                ${project.webLink?`<a href="${project.webLink}" class="button">See Live</a>`:``}
-                ${project.github?`<a href="${project.github}" class="button">GitHub</a>`:``}
-                ${project.codepen?`<a href="${project.codepen}" class="button">CodePen</a>`:``}
+                ${project.webLink?`<a href="${project.webLink}" class="button" target="_blank">See Live</a>`:``}
+                ${project.github?`<a href="${project.github}" class="button" target="_blank">GitHub</a>`:``}
+                ${project.codepen?`<a href="${project.codepen}" class="button" target="_blank">CodePen</a>`:``}
+                </div>
             </div>
             <div class="project__image">
                 <img
@@ -159,4 +194,58 @@ for (section of projectList) {
         
         `;
   }
+}
+
+const servicesList = [
+  {
+    img: "icons8-ui-design-64.png",
+    title: "Ui Design",
+    copy: `New websites built from the ground up with your business in mind. Mobile first approach to ensure your website scales to any device, no matter what size.`,
+  },
+  {
+    title: "Web Development",
+    copy: `I can work on existing projects too, whether you need some new functionality adding or something fixing.`,
+    img: "icons8-web-development-64.png",
+  },
+  {
+    title: "Ecommerce",
+    copy: `E-commerce sites built from scratch or on popular platforms such as Magento, PrestaShop or WooCommerce.`,
+    img: "icons8-commerce-64.png",
+  },
+  {
+    title: "SEO",
+    copy: `Rest assured that good SEO practices are at the forefront of
+    my design and development process.`,
+    img: "icons8-search-engine-optimization-64.png",
+  },
+  {
+    title:"Content management systems",
+    copy:`Whether you need a Wordpress site, Joomla or something
+    completely bespoke I can help you decide depending on your
+    budget and needs.`,
+    img:"icons8-content-management-68.png",
+  },
+  {
+    title:"Responsive design",
+    copy: `Mobile first approach to ensure your website scales to any device, no matter what size.`,
+    img: "icons8-responsive-design-64.png",
+  }
+];
+
+const servicesEl = document.querySelector(".servicesList");
+
+for(const service of servicesList){
+  servicesEl.innerHTML += `
+  <div class="service">
+  <div class="serviceImg">
+    <img src="/assets/images/services/${service.img}" alt="icon" />
+  </div>
+
+  <h2 class="serviceHeadline">${service.title}</h2>
+
+  <div class="serviceCopy">
+    <p>${service.copy}</p>
+  </div>
+</div>
+`
 }

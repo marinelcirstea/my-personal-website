@@ -259,7 +259,8 @@ a {
   font-size: 28px;
 }
 .project__summary {
-  font-size: 20px;
+  font-size: 17px;
+  line-height: 1.5;
   color: var(--p-text-color);
 }
 .project__image {
@@ -291,6 +292,13 @@ a {
     flex-direction: row;
     column-gap: 50px;
     margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .project__copy{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
   }
   .project__copy,
@@ -430,4 +438,97 @@ textarea {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+/* SERVICES */
+
+.sectionTitle {
+  color: #fff;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.services .servicesList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  gap: 3rem;
+  position: relative;
+  z-index: 1;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .services .servicesList {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.services .servicesList .service {
+  display: flex;
+  flex-direction: column;
+  justify-items: stretch;
+  gap: 2rem;
+  width: 100%;
+  max-width: 320px;
+  height: 100%;
+  background: #242625;
+  border-radius: 6px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 3rem 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .services .servicesList .service {
+    height: 360px;
+    padding: 3rem 2rem;
+    gap: 1rem;
+    position: relative;
+  }
+}
+
+.services .servicesList .service:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 16px 16px 25px #1b1c1b, -6px -6px 25px #2d302f6c; */
+
+}
+.services .servicesList .service .serviceCopy p{
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.5;
+}
+.services .servicesList .service .serviceImg {
+  width: 100%;
+}
+
+.services .servicesList .service .serviceImg img {
+  width: 50px;
+  height: auto;
+  border-radius: 6px;
+}
+
+.services .servicesList .service .serviceHeadline {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.services .servicesList .service .copy {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
