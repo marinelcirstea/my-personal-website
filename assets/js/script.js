@@ -3,6 +3,17 @@ const projectList = [
     section: "Test section",
     projects: [
       {
+        title: "The Blueberry Girl",
+        summary:
+          `Please do not access the website if you are under 18 years old! This project is in active development, it only contains placeholders, and is not yet ready for public access. However, you can see the staging website by clicking the "See Live" button.`,
+        github: "",
+        codepen:"",
+        webLink: "https://alice-website-azure.vercel.app/",
+        image: "assets/images/project_images/blueberry-girl.png",
+        imageAltText: "abcd",
+        tech: "",
+      },
+      {
         title: "Open source ecommerce platform",
         summary:
           `This project is still under active development. The plan is to reach a fully functional ecommerce platform built on top of Node and Next.js, that is open source and can be used by anyone.`,
