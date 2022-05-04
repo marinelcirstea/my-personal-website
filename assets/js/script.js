@@ -9,28 +9,20 @@ const faq = [
         a: `Any type, from personal to business/e-commerce websites and bespoke content management platforms.`,
       },
       {
-        q: `How long does it take to build a business website?`,
-        a: `It depends on the size of the website, but it usually takes between 3 an 7 days. Very large websites can take up to a month`,
+        q: `How long does it take to build a website?`,
+        a: `It depends on the size of the website, but a small one takes between 3 an 7 days. Very large websites can take months.`,
       },
       {
-        q: `What is the price for a business website?`,
-        a: `Again, it depends on the size of the website, but for a "normal" business website with 3-5 pages(example: Landing page, About, Contact, Services, etc) the price starts from 600GBP`,
+        q: `What is the price for a website?`,
+        a: `Again, it depends on the size of the website, but for a "normal" website with 3-5 pages(example: Landing page, About, Contact, Services, etc) the price starts from 600GBP`,
       },
       {
-        q: `How long does it take to build an e-commerce website?`,
-        a: `It depends on the size of the website, but it usually takes about one week.`,
+        q: `Are the prices different for e-commerce sites?`,
+        a: `Yes, the prices for e-commerce sites are higher than for normal websites and they start at 1200gbp.`,
       },
       {
-        q: `What is the price for an e-commerce website?`,
-        a: `It depends on the size of the website, but for a "normal" e-commerce website with a landing page(Homepage), Categories, Product and Checkout page the price starts from 1.200GBP`,
-      },
-      {
-        q: `How long does it take to build a bespoke content management system?`,
-        a: `It depends on the requirements of the project. I can not really give an estimate without proper briefing, but a basic content management system should take about one to two weeks to write.`,
-      },
-      {
-        q: `What is the price for a bespoke content management system?`,
-        a: `The price depends on the requirements and size of the application, but for a basic system the price starts at 900GBP.`,
+        q: `Are the prices different for content management platforms?`,
+        a: `If I have to write a bespoke system, yes, the prices start at 900gbp. If you want me to edit an existing system, we'll have to talk about the requirements before giving you an estimate.`,
       },
     ],
   },
@@ -145,7 +137,7 @@ const projectList = [
       {
         title: "Responsive Footer",
         summary:
-          "Full responsivity for Mobile, Tablet and PC. This is part of my free snippets project created on GitHub. Feel free to use it for your website or future project. You do not have to create a backlink or even mention you have got it from me.",
+          `Full responsivity for Mobile, Tablet and PC. This is part of my free snippets project created on GitHub. Feel free to use it for your website or future project. You do not have to create a backlink or even mention you've got it from me. You can find more on the live environment projects page.`,
         github: "https://github.com/marinelcirstea/html-design-snippets/tree/main/snippets/footers/footer_2",
         codepen:"https://codepen.io/marinelc/pen/qBmvMgJ",
         webLink: "",
