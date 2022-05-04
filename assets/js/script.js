@@ -10,7 +10,7 @@ const projectList = [
         codepen:"",
         webLink: "https://alice-website-azure.vercel.app/",
         image: "assets/images/project_images/blueberry-girl.png",
-        imageAltText: "abcd",
+        imageAltText: "Blueberry girl's website created by Marinel Cirstea",
         tech: "",
       },
       {
@@ -21,7 +21,7 @@ const projectList = [
         codepen:"",
         webLink: "",
         image: "assets/images/project_images/ecommerce-platform.png",
-        imageAltText: "abcd",
+        imageAltText: "Open source ecommerce platform created by Marinel Cirstea",
         tech: "",
       },
       {
@@ -32,7 +32,7 @@ const projectList = [
         codepen:"",
         webLink: "https://live-front-end-environment.vercel.app/",
         image: "assets/images/project_images/live-front-end-env.png",
-        imageAltText: "abcd",
+        imageAltText: "Web developer front-end environment created by Marinel Cirstea",
         tech: "",
       },
       {
@@ -43,7 +43,7 @@ const projectList = [
         codepen:"",
         webLink: "https://www.justgetintouch.com/",
         image: "assets/images/project_images/justgetintouch.PNG",
-        imageAltText: "abcd",
+        imageAltText: "JustGetInTouch.com free web mailer created by Marinel Cirstea",
         tech: "",
       },
       {
@@ -54,7 +54,7 @@ const projectList = [
         codepen:"https://codepen.io/marinelc/pen/RwVddxj",
         webLink: "",
         image: "assets/images/project_images/pricing_1.PNG",
-        imageAltText: "abcd",
+        imageAltText: "html and css pricing cards design",
         tech: "",
       },
       {
@@ -65,7 +65,7 @@ const projectList = [
         codepen:"https://codepen.io/marinelc/pen/qBmvMgJ",
         webLink: "",
         image: "assets/images/project_images/footer_1.PNG",
-        imageAltText: "abcd",
+        imageAltText: "html and css footer design",
         tech: "",
       },
       {
@@ -76,7 +76,7 @@ const projectList = [
         codepen:"",
         webLink: "https://www.espressounderground.co.uk/Default.asp",
         image: "assets/images/project_images/espressounderground.png",
-        imageAltText: "abcd",
+        imageAltText: "New website design of EspressoUnderground.co.uk",
         tech: "",
       },
     ],
@@ -93,10 +93,10 @@ for (section of projectList) {
                     ${project.summary}
                 </p>
                 <div class="project__cta">
-                <a href="#contact" class="button button-primary">Contact</a>
-                ${project.webLink?`<a href="${project.webLink}" class="button" target="_blank">See Live</a>`:``}
-                ${project.github?`<a href="${project.github}" class="button" target="_blank">GitHub</a>`:``}
-                ${project.codepen?`<a href="${project.codepen}" class="button" target="_blank">CodePen</a>`:``}
+                <a href="#contact" title="Contact Marinel" class="button button-primary">Contact</a>
+                ${project.webLink?`<a href="${project.webLink}" title="see the website of this project" class="button" target="_blank">See Live</a>`:``}
+                ${project.github?`<a href="${project.github}" title="see the code of this project on github" class="button" target="_blank">GitHub</a>`:``}
+                ${project.codepen?`<a href="${project.codepen}" title="see the code of this project on codepen" class="button" target="_blank">CodePen</a>`:``}
                 </div>
             </div>
             <div class="project__image">
