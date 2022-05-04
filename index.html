@@ -1,116 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta
+      name="description"
+      content="Marinel Cirstea's personal website. Get in touch, request a quote, or just take a look around."
+    />
+    <title>Marinel Cirstea - Freelance Web Developer</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
-  <meta name="description"
-    content="Marinel Cirstea's personal website. Get in touch, request a quote, or just take a look around." />
-  <title>Marinel Cirstea - Freelance Web Developer</title>
+    <link rel="stylesheet" href="assets/css/normalize.css" async />
+    <link rel="stylesheet" href="assets/css/style.css" async />
+  </head>
 
-  <link rel="stylesheet" href="assets/css/normalize.css" async />
-  <link rel="stylesheet" href="assets/css/style.css" async />
-</head>
-
-<body>
-  <div class="body__wrapper">
-    <!--  -->
-    <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <div class="header__logo">
-            <a href="/">John</a>
-          </div>
-          <div class="header__cta">
-            <a href="#contact" class="button button-primary">Contact</a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!--  -->
-    <main>
-      <section class="hero">
+  <body>
+    <div class="body__wrapper">
+      <!--  -->
+      <header class="header">
         <div class="container">
-          <div class="hero__inner">
-            <div class="hero__copy">
-              <h1 class="hero__title">
-                Marinel Cirstea<br />Freelance Web Developer
-              </h1>
-              <p class="hero__summary">
-                I'm a develper with 4 years of experience in web design,
-                development, e-commerce and search engine optimization.
-              </p>
-              <p>
-                Everything I build is SEO friendly, fully mobile responsive
-                and comes with pixel perfect design.
-              </p>
-              <div class="hero__cta">
-                <a href="#contact" class="button button-primary">Get In Touch</a>
-              </div>
+          <div class="header__inner">
+            <div class="header__logo">
+              <a href="/">John</a>
+            </div>
+            <div class="header__cta">
+              <a href="#contact" class="button button-primary">Contact</a>
             </div>
           </div>
         </div>
-      </section>
-
-      <section class="services">
-
-        <div class="container">
-          <h2 class="sectionTitle">Web Services</h2>
-          <div class="servicesList">
-              
-          </div>
-        </div>
-      </section>
-      <!-- projects -->
-      <section class="projects">
-        <div class="container">
-          <div class="projects__inner">
-            <div class="projects__copy">
-              <div class="subcontainer">
-                <h2 class="projects__title">Projects</h2>
-                <p class="projects__summary">
-                  Here's some of the last projects I've recently worked on.
+      </header>
+      <!--  -->
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="hero__inner">
+              <div class="hero__copy">
+                <h1 class="hero__title">
+                  Marinel Cirstea<br />Freelance Web Developer
+                </h1>
+                <p class="hero__summary">
+                  I'm a develper with 4 years of experience in web design,
+                  development, e-commerce and search engine optimization.
                 </p>
+                <p>
+                  Everything I build is SEO friendly, fully mobile responsive
+                  and comes with pixel perfect design.
+                </p>
+                <div class="hero__cta">
+                  <a href="#contact" class="button button-primary"
+                    >Get In Touch</a
+                  >
+                </div>
               </div>
             </div>
-            <div class="projects__list">
+          </div>
+        </section>
+
+        <section class="services">
+          <div class="container">
+            <h2 class="sectionTitle">Web Services</h2>
+            <div class="servicesList"></div>
+          </div>
+        </section>
+        <!-- projects -->
+        <section class="projects">
+          <div class="container">
+            <div class="projects__inner">
+              <div class="projects__copy">
+                <div class="subcontainer">
+                  <h2 class="projects__title">Projects</h2>
+                  <p class="projects__summary">
+                    Here's some of the last projects I've recently worked on.
+                  </p>
+                </div>
+              </div>
+              <div class="projects__list"></div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- FAQ -->
-      <section class="faq">
-        <div class="container">
-          <div class="faq__inner">
-            <div class="faq__title">FAQs</div>
-            <div class="faq__list">
+        <!-- FAQ -->
+        <section class="faq">
+          <div class="container">
+            <div class="faq__inner">
+              <div class="faq__title">FAQs</div>
+              <div class="faq__list"></div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- contact -->
-      <section class="contact" id="contact">
-        <div class="contact__title">Get In Touch</div>
-        <form action="https://justgetintouch.com/marinel.cirstea@gmail.com" method="POST">
-          <input type="hidden" name="_next" value="https://callmejohn.co.uk/thanks.html">
-          <input name="name" type="text" class="contact__input" placeholder="Name" required />
-          <input name="email" type="email" class="contact__input" placeholder="Email" required />
-          <textarea name="text" class="contact__input" placeholder="Message"></textarea>
-          <button type="submit" class="button button-primary contact__button">
-            Send Message
-          </button>
-        </form>
-      </section>
-    </main>
-    <!--  -->
-    <footer class="footer"></footer>
-  </div>
+        <!-- contact -->
+        <section class="contact" id="contact">
+          <div class="contact__title">Get In Touch</div>
+          <form
+            action="https://justgetintouch.com/marinel.cirstea@gmail.com"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_next"
+              value="https://callmejohn.co.uk/thanks.html"
+            />
+            <input
+              name="name"
+              type="text"
+              class="contact__input"
+              placeholder="Name"
+              required
+            />
+            <input
+              name="email"
+              type="email"
+              class="contact__input"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              name="text"
+              class="contact__input"
+              placeholder="Message"
+            ></textarea>
+            <button type="submit" class="button button-primary contact__button">
+              Send Message
+            </button>
+          </form>
+        </section>
+      </main>
+      <!--  -->
+      <footer class="footer"></footer>
+    </div>
 
-  <script src="assets/js/script.js"></script>
-</body>
-
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
