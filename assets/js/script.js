@@ -3,6 +3,17 @@ const projectList = [
     section: "Test section",
     projects: [
       {
+        title: "GWitchDoctor",
+        summary:
+          `Massage therapy website created for Gena Mason, Littlehampton, UK. Built on top of wordpress, integrated with a contact form and a google maps API, and designed using Elementor.`,
+        github: "",
+        codepen:"",
+        webLink: "https://gwitchdoctor.co.uk",
+        image: "assets/images/project_images/gwitchdoctor2-min.png",
+        imageAltText: "GWitchDoctor's website created by Marinel Cirstea",
+        tech: "",
+      },
+      {
         title: "The Blueberry Girl",
         summary:
           `Please do not access the website if you are under 18 years old! This project is in active development, it only contains placeholders, and is not yet ready for public access. However, you can see the staging website by clicking the "See Live" button.`,
@@ -11,6 +22,17 @@ const projectList = [
         webLink: "https://alice-website-azure.vercel.app/",
         image: "assets/images/project_images/blueberry-girl-min.png",
         imageAltText: "Blueberry girl's website created by Marinel Cirstea",
+        tech: "",
+      },
+      {
+        title: "EspressoUnderground.co.uk",
+        summary:
+          `Rewritten the design, implemented analytics and improved loading speed for EspressoUnderground.co.uk. They used quite an old platform - it was a real pain to make it do what we wanted it to do. All of these resulted in their traffic and revenue increasing 4 times in only a few months.`,
+        github: "",
+        codepen:"",
+        webLink: "https://www.espressounderground.co.uk/Default.asp",
+        image: "assets/images/project_images/espressounderground-min.png",
+        imageAltText: "New website design of EspressoUnderground.co.uk",
         tech: "",
       },
       {
@@ -66,17 +88,6 @@ const projectList = [
         webLink: "",
         image: "assets/images/project_images/footer_1-min.PNG",
         imageAltText: "html and css footer design",
-        tech: "",
-      },
-      {
-        title: "EspressoUnderground.co.uk",
-        summary:
-          `Rewritten the design, implemented analytics and improved loading speed for EspressoUnderground.co.uk. They used quite an old platform - it was a real pain to make it do what we wanted it to do. All of these resulted in their traffic and revenue increasing 4 times in only a few months.`,
-        github: "",
-        codepen:"",
-        webLink: "https://www.espressounderground.co.uk/Default.asp",
-        image: "assets/images/project_images/espressounderground-min.png",
-        imageAltText: "New website design of EspressoUnderground.co.uk",
         tech: "",
       },
     ],
