@@ -14,6 +14,39 @@ const projectList = [
         tech: "",
       },
       {
+        title: "Christina Smith",
+        summary:
+          `Please do not access the website if you are under 18 years old!. Personal website for Christina Smith, London, UK.`,
+        github: "",
+        codepen:"",
+        webLink: "https://www.christina-courtesan.co.uk/",
+        image: "assets/images/project_images/christina-smith.png",
+        imageAltText: "Christina Smith's website created by Marinel Cirstea",
+        tech: "",
+      },
+      {
+        title: "Louisa Knight",
+        summary:
+          `Please do not access the website if you are under 18 years old! Personal website for Louisa Knight, Bristol, UK.`,
+        github: "",
+        codepen:"",
+        webLink: "https://www.louisaknight.com/",
+        image: "assets/images/project_images/louisa-knight.png",
+        imageAltText: "Louisa Knight's website created by Marinel Cirstea",
+        tech: "",
+      },
+      {
+        title: "Emily Cole",
+        summary:
+          `Personal website for Emily Cole, London, UK. Please do not access the website if you are under 18 years old!`,
+        github: "",
+        codepen:"",
+        webLink: "https://meetemily.co.uk/",
+        image: "assets/images/project_images/emily-cole.png",
+        imageAltText: "Emily Cole's website created by Marinel Cirstea",
+        tech: "",
+      },
+      {
         title: "The Blueberry Girl",
         summary:
           `Please do not access the website if you are under 18 years old! This project is in active development, it only contains placeholders, and is not yet ready for public access. However, you can see the staging website by clicking the "See Live" button.`,
