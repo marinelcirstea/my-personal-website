@@ -3,17 +3,6 @@ const projectList = [
     section: "Test section",
     projects: [
       {
-        title: "GWitchDoctor",
-        summary:
-          `Massage therapy website created for Gena Mason, Littlehampton, UK. Built on top of wordpress, integrated with a contact form and a google maps API, and designed using Elementor.`,
-        github: "",
-        codepen:"",
-        webLink: "https://gwitchdoctor.co.uk",
-        image: "assets/images/project_images/gwitchdoctor2-min.png",
-        imageAltText: "GWitchDoctor's website created by Marinel Cirstea",
-        tech: "",
-      },
-      {
         title: "Christina Smith",
         summary:
           `Please do not access the website if you are under 18 years old!. Personal website for Christina Smith, London, UK.`,
@@ -36,6 +25,17 @@ const projectList = [
         tech: "",
       },
       {
+        title: "Eva Marlowe",
+        summary:
+          `Please do not access the website if you are under 18 years old!. Personal website for Eva Marlowe, GLASGOW, EDINBURGH & LONDON, UK.`,
+        github: "",
+        codepen:"",
+        webLink: "https://www.evamarlowe.com/",
+        image: "assets/images/project_images/eva-marlowe.png",
+        imageAltText: "Eva Marlowe's website created by Marinel Cirstea",
+        tech: "",
+      },
+      {
         title: "Emily Cole",
         summary:
           `Personal website for Emily Cole, London, UK. Please do not access the website if you are under 18 years old!`,
@@ -55,6 +55,28 @@ const projectList = [
         webLink: "https://alice-website-azure.vercel.app/",
         image: "assets/images/project_images/blueberry-girl-min.png",
         imageAltText: "Blueberry girl's website created by Marinel Cirstea",
+        tech: "",
+      },
+      {
+        title: "Elegant Eve",
+        summary:
+          `Personal website for Elegant Eve, London, UK. Please do not access the website if you are under 18 years old!`,
+        github: "",
+        codepen:"",
+        webLink: "https://eleganteve.co.uk/",
+        image: "assets/images/project_images/elegant-eve.png",
+        imageAltText: "Elegant Eve's website created by Marinel Cirstea",
+        tech: "",
+      },
+      {
+        title: "GWitchDoctor",
+        summary:
+          `Massage therapy website created for Gena Mason, Littlehampton, UK. Built on top of wordpress, integrated with a contact form and a google maps API, and designed using Elementor.`,
+        github: "",
+        codepen:"",
+        webLink: "https://gwitchdoctor.co.uk",
+        image: "assets/images/project_images/gwitchdoctor2-min.png",
+        imageAltText: "GWitchDoctor's website created by Marinel Cirstea",
         tech: "",
       },
       {
